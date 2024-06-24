@@ -1,0 +1,5 @@
+Flask==3.0.3
+Flask-RESTful==0.3.10
+bcrypt==3.2.0
+pymongo==4.7.3
+spacy

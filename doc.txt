@@ -1,0 +1,41 @@
+
+
+Installing en_core_web_trf locally
+
+
+To install a local en_core_web_trf.tar.gz file with pip, you need to specify the path to the file in the pip install command. 
+
+#### en_core_web_trf-3.7.3.tar.gz
+pip install ./en_core_web_trf-3.7.3.tar.gz
+
+You can set timeout because the file is big:
+pip install ./en_core_web_trf-3.7.3.tar.gz --default-timeout=1200
+
+#### en_core_web_md-3.7.1.tar.gz
+pip install ./en_core_web_md-3.7.1.tar.gz
+You can set timeout because the file is big:
+pip install ./en_core_web_md-3.7.1.tar.gz --default-timeout=1200
+
+
+
+Building the docker:
+docker-compose Build
+
+start all services:
+docker-compose up
+
+
+# Register Admin
+{
+    "username":"admin",
+    "password": "123456"
+
+}
+
+# Register usern
+{
+    "username":"maxifreelancing",
+    "password": "123456"
+
+}
+
