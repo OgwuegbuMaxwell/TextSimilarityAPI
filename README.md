@@ -108,6 +108,16 @@ Despite the contextual differences between a tech company's product launch and e
 ### **Implications for Usage**
 The API is well-suited for applications where the primary requirement is to gauge text similarity based on vocabulary and basic semantic structures. However, for use cases involving nuanced understanding of context, especially where homonyms or highly context-dependent meanings are involved, the results may not always align perfectly with human judgment.
 
+
+
+
+![img1](https://github.com/OgwuegbuMaxwell/TextSimilarityAPI/assets/53094485/f24a95b7-b19d-468a-94db-f21b96bba331)
+
+![img2](https://github.com/OgwuegbuMaxwell/TextSimilarityAPI/assets/53094485/159d297c-5196-46d9-bee8-cda816e0882d)
+
+![img3](https://github.com/OgwuegbuMaxwell/TextSimilarityAPI/assets/53094485/4db27eeb-6e07-48b6-9854-81e40b768561)
+
+
 This behavior underscores the importance of selecting the right NLP model and configuration for specific applications, considering the strengths and weaknesses of the model being used.
 
 ### **Recommendations**
